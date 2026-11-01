@@ -1,0 +1,8 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #cdd3d4; font-family: "Microsoft YaHei", "PingFang SC", sans-serif; color: #2a2016; }
+#loading { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at 50% 40%, #7a2a1c, #2a0e08); z-index: 20; transition: opacity .6s; }
+#loading .box { text-align: center; color: #f0d9a6; }
+#loading .title { font-size: 54px; letter-spacing: 16px; font-weight: 700; font-family: "STKaiti", "KaiTi", serif; }
+#loading .sub { font-size: 13px; letter-spacing: 6px; opacity: .75; margin-bottom: 28px; font-family: "Times New Roman", serif; }
+#loading .bar { width: 320px; max-width: 70vw; height: 4px; background: rgba(255,255,255,.15); border-radius: 2px; overflow: hidden; margin: 0 auto 10px; }
+#loading .bar i { display: block; height: 100%; width: 0; background: #e8c27a; transition: width .2s; }
+#stage { font-size: 13px; opacity: .8; }

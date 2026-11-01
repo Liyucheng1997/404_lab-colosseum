@@ -1,0 +1,7 @@
+node_modules/
+dist/
+shots/
+*.log
+scripts/__pycache__/
+*.tmp.mp3
+.claude/settings.local.json
